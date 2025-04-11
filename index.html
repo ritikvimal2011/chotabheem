@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eat & Win Competition</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    header {
+      background: #ff6347;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      animation: slideDown 1s ease-out;
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .poster-img {
+      display: block;
+      max-width: 90%;
+      height: auto;
+      margin: 30px auto 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .cta {
+      background: #ffe5b4;
+      padding: 25px;
+      margin: 25px auto;
+      width: 90%;
+      max-width: 700px;
+      border-radius: 14px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      animation: fadeInUp 1s ease forwards;
+      transition: transform 0.3s ease;
+    }
+
+    .cta:hover {
+      transform: translateY(-5px);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .cta h2 {
+      margin-top: 0;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #ff6347;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background: #e6533c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f4f4f4;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    #bqr {
+      display: block;
+      margin: 20px auto;
+      background: transparent;
+      max-width: 180px;
+      animation: bounceIn 1.2s ease-in-out;
+    }
+
+    @keyframes bounceIn {
+      0% { transform: scale(0.3); opacity: 0; }
+      50% { transform: scale(1.1); opacity: 1; }
+      70% { transform: scale(0.9); }
+      100% { transform: scale(1); }
+    }
+
+    @media screen and (max-width: 600px) {
+      .cta {
+        padding: 20px;
+      }
+
+      #bqr {
+        max-width: 140px;
+      }
+    }
+    h2 {
+      color: orange;
+      align-items: center;
+      text-align: center; /* Center align all h2 elements */
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Eat & Win Competition</h1>
+    <p>Join us for a delicious challenge and win exciting prizes!</p>
+  </header>
+  <h2 class="registration-info">*** REGISTRATION FEE IS RS. 50 ***</h2>
+  <img src="WhatsApp Image 2025-04-12 at 00.04.07_bbf0dbcd.jpg" alt="Eat & Win Poster" class="poster-img">
+
+  <div class="content">
+        
+    <section class="cta">
+      <h2>How to Participate</h2>
+      <p>Visit the food festival, enjoy delicious dishes, and scan the QR code below to enter:</p>
+      <img src="chhota bheem.jpg" alt="Chhota Bheem QR Code" id="bqr" />
+      <p>or</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUJAAUlXH0CJp8JHNv1FzFlwZ2snBBvPiG0OPJOz-H8G77fQ/viewform?usp=pp_url" target="_blank">
+        Click here for Register
+      </a>
+    </section>
+
+    <section class="cta">
+      <h2>Prizes</h2>
+      <p>Win exciting vouchers and goodies just by enjoying your favorite food!</p>
+    </section>
+
+    <section class="cta">
+      <h2>Event Details</h2>
+      <p>
+        <strong>Date:</strong> This Weekend<br>
+        <strong>Day:</strong> Saturday & Sunday<br>
+        <strong>Time:</strong> 12:15 PM - 4:15 PM<br>
+        <strong>Location:</strong> Central Grounds
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Eat & Win Challenge. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
